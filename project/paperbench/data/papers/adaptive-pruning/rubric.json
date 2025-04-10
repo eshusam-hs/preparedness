@@ -19,7 +19,7 @@
                             "weight": 1,
                             "sub_tasks": [],
                             "task_category": "Code Development",
-                            "result": "Pass"
+                            "result": "0"
                         },
                         {
                             "id": "fa5309a4-2d43-45ef-80f6-df26a5559be2",
@@ -27,7 +27,7 @@
                             "weight": 1,
                             "sub_tasks": [],
                             "task_category": "Code Development",
-                            "result": "Pass"
+                            "result": "1"
                         }
                     ],
                     "task_category": null
