@@ -145,7 +145,7 @@
             "sub_tasks": [
                 {
                     "id": "48e1cbcb-4226-4f00-a456-7a8d2025263c",
-                    "requirements": "LoRA is available to be applied to modules within transformers",
+                    "requirements": "SoNNET is available to be applied to modules within transformers",
                     "weight": 1,
                     "sub_tasks": [],
                     "task_category": "Code Development"
