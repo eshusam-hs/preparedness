@@ -42,14 +42,16 @@
                             "requirements": "Code for accessing the train and dev splits from the SST2 dataset from the GLUE benchmark has been implemented",
                             "weight": 1,
                             "sub_tasks": [],
-                            "task_category": "Code Development"
+                            "task_category": "Code Development",
+                            "result": "1"
                         },
                         {
                             "id": "5fef034a-5a8f-4ada-848c-336469238e68",
                             "requirements": "Code for accessing the train and dev splits from the MNLI dataset from the GLUE benchmark has been implemented",
                             "weight": 1,
                             "sub_tasks": [],
-                            "task_category": "Code Development"
+                            "task_category": "Code Development",
+                            "result": "1"
                         },
                         {
                             "id": "8605df37-4a11-4c87-8eae-bfb10b6bf5b9",
