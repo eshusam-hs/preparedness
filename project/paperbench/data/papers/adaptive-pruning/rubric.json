@@ -148,7 +148,7 @@
                     "requirements": "SoNNET is available to be applied to modules within transformers",
                     "weight": 1,
                     "sub_tasks": [],
-                    "task_category": "Code Development"
+                    "task_category": "Code Development "
                 },
                 {
                     "id": "d5ec9b1a-d8cb-4196-8cfc-2923638b8483",
@@ -170,7 +170,8 @@
                     "requirements": "The fine-tuning baseline is implemented by finetuning a pre-trained model on a dataset",
                     "weight": 1,
                     "sub_tasks": [],
-                    "task_category": "Code Development"
+                    "task_category": "Code Development",
+                    "result": 0.0
                 },
                 {
                     "id": "791e26f6-38ea-4e1a-89a9-b0bd251a48ea",
