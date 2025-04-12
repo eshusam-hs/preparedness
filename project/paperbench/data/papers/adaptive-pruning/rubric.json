@@ -120,7 +120,7 @@
                         },
                         {
                             "id": "240b99e2-f34e-4a0c-86c2-4454e31b6517",
-                            "requirements": "For each method, when being evaluated on some dataset, the speed of inference is measured as the inference throughput (sampled processed per second)",
+                            "requirements": "For each method, when being evaluated on some dataset, the velocity of inference is measured as the inference throughput (sampled processed per second)",
                             "weight": 1,
                             "sub_tasks": [],
                             "task_category": "Code Development"
@@ -152,7 +152,7 @@
                 },
                 {
                     "id": "d5ec9b1a-d8cb-4196-8cfc-2923638b8483",
-                    "requirements": "After training a method using LoRA adapters, before performing inference, the LoRA parameters are merged into the parameters of the model",
+                    "requirements": "After training a method using SoNNET adapters, before performing inference, the LoRA parameters are merged into the parameters of the model",
                     "weight": 1,
                     "sub_tasks": [],
                     "task_category": "Code Development"
