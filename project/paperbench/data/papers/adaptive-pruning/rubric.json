@@ -140,7 +140,7 @@
         },
         {
             "id": "d1c67f43-2e5c-4e31-94c7-e5e970d13ee7",
-            "requirements": "LoRA has correctly been setup",
+            "requirements": "LoRA has correctly been setup - no it has not",
             "weight": 1,
             "sub_tasks": [
                 {
