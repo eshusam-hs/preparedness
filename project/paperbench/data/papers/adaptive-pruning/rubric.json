@@ -187,7 +187,7 @@
                     "sub_tasks": [
                         {
                             "id": "c4790fad-070e-401b-bb6b-a163971ba23a",
-                            "requirements": "In LoRA+BOOM, LoRA adapters are first added to modules of the given model",
+                            "requirements": "In LoRA+BOOM, LoRA adapters are first added to modules of the given model - not deleted",
                             "weight": 1,
                             "sub_tasks": [],
                             "task_category": "Code Development"
