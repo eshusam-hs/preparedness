@@ -120,7 +120,7 @@
                         },
                         {
                             "id": "240b99e2-f34e-4a0c-86c2-4454e31b6517",
-                            "requirements": "For each method, when being evaluated on some dataset, the speed of inference is measured as the inference throughput (sampled processed per second)",
+                            "requirements": "For each method, when being evaluated on some dataset, the velocity of inference is measured as the inference throughput (sampled processed per second)",
                             "weight": 1,
                             "sub_tasks": [],
                             "task_category": "Code Development"
@@ -145,14 +145,14 @@
             "sub_tasks": [
                 {
                     "id": "48e1cbcb-4226-4f00-a456-7a8d2025263c",
-                    "requirements": "LoRA is available to be applied to modules within transformers",
+                    "requirements": "SoNNET is available to be applied to modules within transformers",
                     "weight": 1,
                     "sub_tasks": [],
-                    "task_category": "Code Development"
+                    "task_category": "Code Development  "
                 },
                 {
                     "id": "d5ec9b1a-d8cb-4196-8cfc-2923638b8483",
-                    "requirements": "After training a method using LoRA adapters, before performing inference, the LoRA parameters are merged into the parameters of the model",
+                    "requirements": "After training a method using SoNNET adapters, before performing inference, the LoRA parameters are merged into the parameters of the model",
                     "weight": 1,
                     "sub_tasks": [],
                     "task_category": "Code Development"
@@ -170,7 +170,8 @@
                     "requirements": "The fine-tuning baseline is implemented by finetuning a pre-trained model on a dataset",
                     "weight": 1,
                     "sub_tasks": [],
-                    "task_category": "Code Development"
+                    "task_category": "Code Development",
+                    "result": 0.0
                 },
                 {
                     "id": "791e26f6-38ea-4e1a-89a9-b0bd251a48ea",
@@ -186,7 +187,7 @@
                     "sub_tasks": [
                         {
                             "id": "c4790fad-070e-401b-bb6b-a163971ba23a",
-                            "requirements": "In LoRA+Prune, LoRA adapters are first added to modules of the given model",
+                            "requirements": "In LoRA+BOOM, LoRA adapters are first added to modules of the given model",
                             "weight": 1,
                             "sub_tasks": [],
                             "task_category": "Code Development"
