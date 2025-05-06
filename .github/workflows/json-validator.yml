@@ -36,5 +36,5 @@ jobs:
       run: |
         for file in ${{ steps.changed.outputs.all_changed_files }}; do
           echo "🔍 validating $file"
-          python validate.py "$file"
+          python validate.py -f "$file"
         done
