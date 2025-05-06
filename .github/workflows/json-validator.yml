@@ -1,0 +1,40 @@
+# .github/workflows/json‑validator.yml
+name: Validate JSON on change
+
+# 1️⃣  Trigger only when *.json files are touched
+on:
+  push:
+    branches: [main]          # or whatever branches you care about
+    paths:                    # glob patterns
+      - '**/*.json'
+  pull_request:
+    paths:
+      - '**/*.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 2️⃣  Get the repo @ the commit being tested
+    - uses: actions/checkout@v4
+
+     # 2️⃣  Install the Python version you need
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'    # pin any version you like
+
+    # 4️⃣  Grab only the files that changed in this commit/PR
+    - id: changed
+      uses: tj-actions/changed-files@v41       # tiny, zero‑config helper
+      with:
+        files: '**/*.json'
+
+    # 5️⃣  Run your script on each file
+    - name: Run validator
+      if: steps.changed.outputs.any_changed == 'true'
+      run: |
+        for file in ${{ steps.changed.outputs.all_changed_files }}; do
+          echo "🔍 validating $file"
+          python validate.py "$file"
+        done
